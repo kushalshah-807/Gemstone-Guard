@@ -1,0 +1,69 @@
+[21-Sep-2022 17:48:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'qr_code' doesn't have a default value in /home/labidgl/public_html/diamond-adm-24/functions.php:9
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/functions.php(9): mysqli_query(Object(mysqli), 'INSERT INTO `dg...')
+#1 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(69): Utility->dataInsert(Object(mysqli), 'dgl_certificate', Array)
+#2 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/functions.php on line 9
+[21-Sep-2022 18:03:54 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 168
+[21-Sep-2022 18:03:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, '../qr-img/1-d4q...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('https://beauxar...', '../qr-img/1-d4q...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(168): QRcode::png('https://beauxar...', '../qr-img/1-d4q...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
+[21-Sep-2022 18:30:35 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 168
+[21-Sep-2022 18:30:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, '../qr-img/2-lv1...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('https://idgllab...', '../qr-img/2-lv1...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(168): QRcode::png('https://idgllab...', '../qr-img/2-lv1...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
+[21-Sep-2022 18:34:22 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 168
+[21-Sep-2022 18:34:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, '../qr-img/4-etc...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('https://idgllab...', '../qr-img/4-etc...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(168): QRcode::png('https://idgllab...', '../qr-img/4-etc...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
+[21-Sep-2022 18:41:17 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 168
+[21-Sep-2022 18:41:17 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, 'https://idgllab...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('https://idgllab...', 'https://idgllab...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(168): QRcode::png('https://idgllab...', 'https://idgllab...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
+[21-Sep-2022 18:42:50 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 168
+[21-Sep-2022 18:42:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, 'qr-img/6-x0g1-q...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('https://idgllab...', 'qr-img/6-x0g1-q...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(168): QRcode::png('https://idgllab...', 'qr-img/6-x0g1-q...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
+[21-Sep-2022 18:48:54 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 168
+[21-Sep-2022 18:48:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, 'qr-img/2-obac-q...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('https://idgllab...', 'qr-img/2-obac-q...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(168): QRcode::png('https://idgllab...', 'qr-img/2-obac-q...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
+[21-Sep-2022 18:57:10 Asia/Kolkata] PHP Warning:  Undefined variable $frame_size in /home/labidgl/public_html/diamond-adm-24/certificate-process.php on line 169
+[21-Sep-2022 18:57:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function ImageCreate() in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php:147
+Stack trace:
+#0 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php(63): QRimage::image(Array, 10, NULL)
+#1 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(987): QRimage::png(Array, 'qr-img/3-c4j6-q...', 10, NULL, false)
+#2 /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrencode.php(571): QRencode->encodePNG('view-report.php', 'qr-img/3-c4j6-q...', false)
+#3 /home/labidgl/public_html/diamond-adm-24/certificate-process.php(169): QRcode::png('view-report.php', 'qr-img/3-c4j6-q...', 'L', 10, NULL)
+#4 {main}
+  thrown in /home/labidgl/public_html/diamond-adm-24/phpqrcode/qrimage.php on line 147
